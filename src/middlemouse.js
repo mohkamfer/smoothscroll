@@ -47,7 +47,7 @@ function init() {
     var style = img.style;
     style.background = "url("+url+") no-repeat";
     style.position   = "fixed";
-    style.zIndex     = "1000";
+    style.zIndex     = "1000000";
     style.width      = "20px";
     style.height     = "20px";
     new Image().src  = url; // force download
